@@ -11,10 +11,10 @@ function showAppInfo() {
 showAppInfo();
 
 const transactions = [
-  { id: 1, customer: "Andi", total: 200000, status: "paid" },
-  { id: 2, customer: "Budi", total: 150000, status: "unpaid" },
-  { id: 3, customer: "Citra", total: 300000, status: "paid" },
-  { id: 4, customer: "Dewi", total: 180000, status: "paid" },
+  { id: 1, customer: "Dani", total: 200000, status: "paid" },
+  { id: 2, customer: "Rizqi", total: 150000, status: "unpaid" },
+  { id: 3, customer: "Ayu", total: 300000, status: "paid" },
+  { id: 4, customer: "Naila", total: 180000, status: "paid" },
 ];
 
 
@@ -63,4 +63,5 @@ document.getElementById("filterBtn").addEventListener("click", () => {
 
 document.getElementById("filterUnpaidBtn").addEventListener("click", () => {
   filterByStatus("unpaid");
+
 });
